@@ -3,7 +3,7 @@
 - Clone this repo
 - `npm init` in order to create the package (for you to use the version and description variables I have used)
 - Create a **config.json** file, and add a *token* and *prefix* variable
-- If you do not have a node_modules, do `npm i discord.js` and `npm i discord-buttons` (2 dependencies of the bot!)
+- If you do not have a node_modules or the bot has not worked yet, do `npm i discord.js` and `npm i discord-buttons` (2 dependencies of the bot!)
 - After doing so, go into `commands/handler.js | Line 124` and change some of the functions you see there! (and add some)
 
 
