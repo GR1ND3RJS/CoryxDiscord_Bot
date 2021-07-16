@@ -9,6 +9,8 @@
 
 # Information about files
 
-> `config/blacklist.json` is used to blacklist members from using the bot
-> `config/info.json` is used for advertisements in the HELP menu, and for support server link.
->  `config/log.js` is just for the console.log() beatification, when starting your bot. Don't worry about it unless **it breaks your bot, then you go to index.js and delete the function.**
+1. `config/blacklist.json` is used to blacklist members from using the bot
+
+2. `config/info.json` is used for advertisements in the HELP menu, and for support server link.
+
+3.  `config/log.js` is just for the console.log() beautification, when starting your bot. Don't worry about it unless **it breaks your bot, then you go to index.js and delete the function.**
