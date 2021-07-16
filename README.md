@@ -1,4 +1,4 @@
-#How to install the CORYXKENSHIN Discord bot
+# How to install the CORYXKENSHIN Discord bot
 
 - Clone this repo
 - `npm init` in order to create the package (for you to use the version and description variables I have used)
@@ -7,7 +7,7 @@
 - After doing so, go into `commands/handler.js | Line 124` and change some of the functions you see there! (and add some)
 
 
-#Information about files
+# Information about files
 
 > `config/blacklist.json` is used to blacklist members from using the bot
 > `config/info.json` is used for advertisements in the HELP menu, and for support server link.
