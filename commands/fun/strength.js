@@ -3,7 +3,7 @@ const { MessageEmbed } = require("discord.js")
 module.exports = {
     commands: ['strength'],
     description: 'How much strength do you have?',
-    group: 'paul',
+    group: 'fun',
     maxArgs: 0,
     delmsg: 1,
     cooldown: 30,

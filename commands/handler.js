@@ -123,14 +123,14 @@ module.exports = async (client, commandOptions) => {
 
         const options = {
             author: message.author.username, // The message Author
-            footer: `Samurui sliced by: ${message.author.tag}`,
+            footer: `Samurai sliced by: ${message.author.tag}`,
             icon: message.author.displayAvatarURL({
                 dynamic: true
             }),
             img: message.author.displayAvatarURL({
                 dynamic: true
             }), // The message author's pfp
-            col: '##3449eb', //Color - For the embed
+            col: '#3449eb', //Color - For the embed
             pre: prefix, // Prefix
             ver: version, // Version of bot
         }

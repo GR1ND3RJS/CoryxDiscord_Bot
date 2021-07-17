@@ -1,5 +1,5 @@
 const handler = require('../../run-handler')
-const { prefix } = require('../../../config/secrets/config.json');
+const { prefix } = require('../../../config.json');
 const { ad } = require('../../../config/info.json')
 const { MessageEmbed } = require('discord.js');
 const { MessageButton } = require('discord-buttons');
@@ -20,7 +20,7 @@ module.exports = {
         let txt_dev = 'DEVELOPER COMMANDS (Hey dev!): \n\n';
         let txt_gui = 'GUILD UTILITY COMMANDS: \n\n';
         let txt_cli = 'CLIENT UTILITY COMMANDS: \n\n'
-        let txt_pb = 'PAUL BLART ENJOYS: \n\n'
+        let txt_pb = 'CorxFavs: \n\n'
 
 
 
@@ -79,7 +79,7 @@ module.exports = {
                     txt_cli += reply
                 }  else if (command.group === 'developer') {
                     txt_dev += reply
-                } else if (command.group === 'paul') {
+                } else if (command.group === 'cory') {
                     txt_pb += reply
                 }
             }
@@ -95,7 +95,7 @@ module.exports = {
 
 
         let pages = [init, txt_Fun, txt_pb, txt_gui, txt_cli, txt_dev]
-        let titles = ["HELP", '😃 FUN 😃', "🚓 PAUL BLART FAVS 👮‍♂️", "📃 GUILD UTILITY 📊", "🤖 CLIENT UTILITY 🤖", "DEVELOPER"]
+        let titles = ["HELP", '😃 FUN 😃', "💙 CoryxFavs 👍", "📃 GUILD UTILITY 📊", "🤖 CLIENT UTILITY 🤖", "DEVELOPER"]
         let page = 1
         let title = 1
 
@@ -116,7 +116,7 @@ module.exports = {
         let helpButton = new MessageButton()
         .setStyle('url')
         .setLabel(`Support Channel`)
-        .setURL(`https://discord.gg/wprjEAAPSp`)
+        .setURL(`https://www.youtube.com/watch?v=dQw4w9WgXcQ`) //LMAOOO CHANGE THIS BEFORE YOU DIE
 
         let rBe = new MessageButton()
         .setStyle('blurple')
@@ -138,7 +138,7 @@ module.exports = {
         .setLabel("⏩")
         .setID(`double_right`)
 
-        message.author.send(`HELP`, {embed: helpEmbed, buttons: [lBe2, lBe, helpButton, rBe, rBe2]}).then(async msg => {
+        message.author.send(``, {embed: helpEmbed, buttons: [lBe2, lBe, helpButton, rBe, rBe2]}).then(async msg => {
             message.channel.send(`Check your dms!`)
             message.react(`👍`)
 
